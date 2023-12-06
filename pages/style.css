@@ -1,0 +1,72 @@
+#listaRegistros{ 
+    display: none; /* tipo de exibição */
+} 
+
+#cadastroRegistro{
+    display: none;
+    flex-direction: column; /* um embaixo do outro */
+    gap: 30px; /* espaçamento entre os itens */
+}
+
+.img{
+    text-align: center;
+}
+body[page=lista] #listaRegistros{ 
+    display: block; 
+}
+
+body[page=cadastro] #cadastroRegistro{ 
+    display: flex; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /* uniao das bordas na tabela */
+}
+
+table th,
+table td{
+    font-size: 14px;
+    padding: 10px 15px; /* distancia entre o conteudo do elemento e suas bordas (10px em cima e embaixo & 15px na direita e na esquerda) */
+    border: solid 1px #ccc;
+}
+
+button{
+    border: none;
+    border-radius: 4px; /* arredondar */
+    cursor: pointer; /* quando o mouse passar em cima vai mudar a setinha */
+    background-color: #cb3cde;
+    color: #fff;
+    margin: 3px; /* espaçamento */
+    padding: 10px 15px;
+}
+button.cinza{
+    background-color: #ccc;
+    color: #666;
+}
+button.vermelho{
+    background-color: rgb(254, 22, 22);
+}
+button:hover{
+    opacity: 0.8; /* quando o mouse passar por cima, a opacidade vai diminuir */
+}
+
+input{
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.label>div{ /* "filhos" do label */
+    display: flex;
+}
+
+.label>div>input{
+    flex: 1;
+}
+

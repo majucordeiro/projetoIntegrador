@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box; /*Calcúla o tamanho da caixa*/
+  margin: 0; /*Define a área da margem nos quatro lados*/
+  padding: 0; /*Gera espaço entre determinados elementos*/
+  font-family: "Poppins", sans-serif; /*Fonte do texto*/
+} /*Design da caixa onde as informações estão presentes*/
+
+body{
+  background: #ffffff; /*Cor do fundo*/
+  width: 100%; /*Muda a largura*/
+  min-height: 100vh; /*Altura mínima de um elemento*/
+  display: flex; /*Muda a forma da disposição dos elementos*/
+  justify-content: center; /*Define como o espaçamento é destribuído*/
+  align-items: center; /*Serve para alinhar os elementos*/
+} /*Design do copo da página*/
+
+.container{
+  background-color: #e2e2e2; /*Cor do fundo*/
+  border-radius: 15px; /*Serve para arredondar a borda de um elemetno*/
+  margin: 14px; /*Define a área da margem nos quatro lados*/
+  max-width: 600px; /*Largura máxima de um elemento*/
+  width: 100%; /*Muda a largura*/
+  box-sizing: 0 3px 5px rgba(0,0,0, 0.5); /*Calcúla o tamanho da caixa*/
+  overflow: hidden; /*Define quando o elemento deve ser cortado*/
+} /*Design do div da página*/
+
+.header{
+  background: linear-gradient(120deg, #950292 0%, #cb3cde 100%); /*Cor do fundo*/
+  padding: 24px; /*Gera espaço entre determinados elementos*/
+  text-align: center; /*Muda o alinhamento do texto*/
+  color: #FFF; /*Define a cor de um elemento*/
+} /*Design do cabeçalho da página*/
+
+.form{
+  padding: 18px; /*Gera espaço entre determinados elementos*/
+} /*Design do form*/
+
+.form-content{
+  margin-bottom: 8px; /*Define a área da margem na parte inferior*/
+  padding-bottom: 18px; /*Gera espaço entre os elementos na parte inferior*/
+  position: relative; /*Muda a posição de um elemento*/
+  text-align: center; /*Muda o alinhamento do texto*/
+  color: #950292; /*Define a cor de um elemento*/
+} /*Design do segundo div da página*/
+
+.text{
+  color: black; /*Define a cor de um elemento*/
+} /*Cor do texto da página*/
+
+.teste{
+  padding: 20px; /*Gera espaço entre determinados elementos*/
+  width: 150px; /*Muda a largura*/
+  border-radius: 15px; /*Serve para arredondar a borda de um elemetno*/
+  border: none; /*Serve para mudar a borda dos elementos*/
+  background-color: #950292; /*Cor do fundo*/
+  text-align: center; /*Muda o alinhamento do texto*/
+  color: white; /*Define a cor de um elemento*/
+  text-size-adjust: 60px; /*Ajusta o tamanho do texto*/
+} /*Design dos botões*/
+
+a{
+text-decoration: none; /*Muda a decoração do texto*/
+color: white; /*Define a cor de um elemento*/
+} /*Design do link*/
+

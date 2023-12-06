@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" /> <!--Acessar o CSS-->
+
+  <title>4Service</title>
+
+</head>
+<body>
+
+  <div class="container"> <!--Serve como uma caixa para armazenar informações-->
+    <section class="header"> <!--Seção do documento-->
+      <div class="img"> <!--Serve como uma caixa para armazenar informações-->
+        <img src="../img/logo-removebg-preview.png" width="80" height="70"> <!--Cola uma imagem selecionada-->
+      </div>
+      <h1>Consulta de Treinamento</h1> <!--Título da página-->
+
+    </section>
+
+    <form id="form" class="form"> 
+      <div class="form-content"> <!--Serve como uma caixa para armazenar informações-->
+         <h2>Área destinada apenas para a visualização!</h2> <!--Subtítulo da página-->
+      </div>
+      <div> <!--Serve como uma caixa para armazenar informações-->
+        <p class="text">
+            <center>
+                <p>Aqui você poderá ver como ficará futuramente a área destinada à vizualização dos treinamentos dos colaboradores de sua empresa, necssitando, apenas, digitar o nome e o ID do profissional que deseja superfisionar.</p> <!--Parágrafo-->
+            <br> <!--Quebra linha-->
+            <br> <!--Quebra linha-->
+            <div> <!--Serve como uma caixa para armazenar informações-->
+                <button class = 'teste'>Pesquisar</button> <!--Cria um botão-->
+                <input placeholder="Digite o nome do colaborador..." autofocus id='inputPesquisa' class="teste2"/> <!--Cria um controle interativo-->
+            </div> 
+            <br> <!--Quebra linha-->
+            <div> <!--Serve como uma caixa para armazenar informações-->
+                <button class = 'teste'>Pesquisar</button> <!--Cria um botão-->
+                <input placeholder="Digite o ID do colaborador..." autofocus id='inputPesquisclass' class="teste2"/> <!--Cria um controle interativo-->
+                <br> <!--Quebra linha-->
+                <br> <!--Quebra linha-->
+                <br> <!--Quebra linha-->
+                <br> <!--Quebra linha-->
+                <div id='listaRegistros'> <!--Serve como uma caixa para armazenar informações-->
+                <table> <!--Cria tabela-->
+                    <h2 class="tituloTabela">Controle de Treinamento</h2> <!--Título para a tabela-->
+                    <thead> <!--Cabeçalho da tabela-->
+                        <tr> <!--Define linha da tabela-->
+                            <th>ID </th> <!--Célula do cabeçalho-->
+                            <th>Nome</th> <!--Célula do cabeçalho-->
+                            <th>Função</th> <!--Célula do cabeçalho-->
+                            <th>Curso</th> <!--Célula do cabeçalho-->
+                            <th>Validade</th> <!--Célula do cabeçalho-->
+                            <th>Status</th> <!--Célula do cabeçalho-->
+                        </tr> <!--Define linha da tabela-->
+                    </thead>
+                    <tbody> <!--Corpo da tabela-->
+                        <tr id="leandro"> <!--Define linha da tabela-->
+                            <td>1</td> <!--Coluna para conteúdo-->
+                            <td>Leandro Moraes Silva</td> <!--Coluna para conteúdo-->
+                            <td>Estagiário</td> <!--Coluna para conteúdo-->
+                            <td>Desenvolvimento WEB</td> <!--Coluna para conteúdo-->
+                            <td>12/12/2023</td> <!--Coluna para conteúdo-->
+                            <td class="completo">Completo</td> <!--Coluna para conteúdo-->
+                        </tr>
+                        <tr id="maria"> <!--Define linha da tabela-->
+                            <td>2</td> <!--Coluna para conteúdo-->
+                            <td>Maria Júlia Cordeiro</td> <!--Coluna para conteúdo-->
+                            <td>Estagiária</td> <!--Coluna para conteúdo-->
+                            <td>Desenvolvimento WEB</td> <!--Coluna para conteúdo-->
+                            <td>12/12/2023</td> <!--Coluna para conteúdo-->
+                            <td class="emAndamento">Em andamento</td> <!--Coluna para conteúdo-->
+                        </tr>
+                        <tr id="guilherme"> <!--Define linha da tabela-->
+                            <td>3</td> <!--Coluna para conteúdo-->
+                            <td>Guilherme José</td> <!--Coluna para conteúdo-->
+                            <td>Estagiário</td> <!--Coluna para conteúdo-->
+                            <td>Desenvolvimento WEB</td> <!--Coluna para conteúdo-->
+                            <td>12/12/2023</td> <!--Coluna para conteúdo-->
+                            <td class="incompleto">Incompleto</td> <!--Coluna para conteúdo-->
+                        </tr>
+                        <tr id="gabriel"> <!--Define linha da tabela-->
+                            <td>4</td> <!--Coluna para conteúdo-->
+                            <td>Gabriel Azevedo</td> <!--Coluna para conteúdo-->
+                            <td>Estagiário</td> <!--Coluna para conteúdo-->
+                            <td>Desenvolvimento WEB</td> <!--Coluna para conteúdo-->
+                            <td>12/12/2023</td> <!--Coluna para conteúdo-->
+                            <td class="completo">Completo</td> <!--Coluna para conteúdo-->
+                        </tr>
+                    </tbody>
+                </table>
+                <br> <!--Quebra linha-->
+                <br> <!--Quebra linha-->
+                <br> <!--Quebra linha-->
+  <button type="submit" class="voltar"><a href="../index.html">Página Inicial</a></button> <!--Cria um botão-->
+        
+            </div>
+        </center>
+  <footer> <!--Rodapé-->
+    <center>
+        <br> <!--Quebra linha-->
+        <br> <!--Quebra linha-->
+        <br> <!--Quebra linha-->
+        
+        <p>Todos os direitos reservados &copy;2023</p> <!--Parágrafo-->
+    </center>
+  </footer>
+</div> <!--Serve como uma caixa para armazenar informações-->
+  <script src="./script.js"></script> <!--Acessar o javaScript-->
+</body>
+</html>
+
